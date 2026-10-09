@@ -1,0 +1,47 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 依赖
+node_modules/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# 构建产物
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.class
+*.jar
+*.war
+
+# 日志和临时文件
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 可选：如果你真的想忽略 .gitignore 本身，取消下面注释（不推荐）
+# .gitignore
